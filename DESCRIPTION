@@ -1,0 +1,14 @@
+Package: stringa
+Title: Adam's String Tools
+Version: 0.0.0.9000
+Authors@R: 
+    person("Adam", "Shen", , "adamshen1@gmail.com", role = c("aut", "cre"))
+Description: Tools that Adam often uses for his text-related projects.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+URL: https://adamoshen.github.io/stringa, https://github.com/adamoshen/stringa
+Imports: 
+    rlang (>= 1.1.0),
+    stringr
