@@ -11,4 +11,11 @@ RoxygenNote: 7.3.2
 URL: https://adamoshen.github.io/stringa, https://github.com/adamoshen/stringa
 Imports: 
     rlang (>= 1.1.0),
-    stringr
+    stringr,
+    tibble
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Suggests: 
+    dplyr,
+    tidytext
