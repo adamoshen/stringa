@@ -25,6 +25,30 @@ A character vector the same length as \code{string}.
 Use \code{str_head()} to view the beginning of a string and \code{str_tail()} to view the end of a string.
 These functions work better for longer strings.
 }
+\examples{
+# Basic usage
+str_head(paste0(letters, collapse=""))
+str_tail(paste0(letters, collapse=""))
+
+# Slightly more realistic usage
+library(tibble)
+library(dplyr)
+library(stringi)
+
+my_docs <- tibble(
+  doc_id = stri_rand_strings(4, length=6),
+  text = rep(4, 4)
+) \%>\%
+mutate(text = stri_rand_lipsum(text, start_lipsum=FALSE))
+
+my_docs \%>\%
+  pull(text, name=doc_id) \%>\%
+  str_head()
+
+my_docs \%>\%
+  pull(text, name=doc_id) \%>\%
+  str_tail()
+}
 \seealso{
 \code{\link[stringr:str_trunc]{stringr::str_trunc()}}, which this function wraps.
 }
