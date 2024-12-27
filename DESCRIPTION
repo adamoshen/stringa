@@ -5,17 +5,18 @@ Authors@R:
     person("Adam", "Shen", , "adamshen1@gmail.com", role = c("aut", "cre"))
 Description: Tools that Adam often uses for his text-related projects.
 License: GPL (>= 3)
-Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
 URL: https://adamoshen.github.io/stringa, https://github.com/adamoshen/stringa
+Depends: 
+    R (>= 3.5)
 Imports: 
     rlang (>= 1.1.0),
     stringr,
     tibble
-Depends: 
-    R (>= 3.5)
-LazyData: true
 Suggests: 
     dplyr,
+    stringi,
     tidytext
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
