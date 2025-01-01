@@ -27,12 +27,12 @@ These functions work better for longer strings.
 }
 \examples{
 # Basic usage
-str_head(paste0(letters, collapse=""))
-str_tail(paste0(letters, collapse=""))
+str_head(paste0(rep(letters, 2), collapse=""))
+str_tail(paste0(rep(letters, 2), collapse=""))
 
 # Slightly more realistic usage
 library(tibble)
-library(dplyr)
+library(dplyr, warn.conflicts=FALSE)
 library(stringi)
 
 my_docs <- tibble(
