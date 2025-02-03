@@ -6,3 +6,5 @@ template:
     primary: "#26A061"
     code_font: {google: "Fira Mono"}
   theme: atom-one-light
+  includes:
+    in_header: extra.css
