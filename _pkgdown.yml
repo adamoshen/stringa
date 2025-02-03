@@ -8,3 +8,13 @@ template:
   theme: atom-one-light
   includes:
     in_header: extra.css
+
+reference:
+- title: "String tools"
+  contents:
+  - str_head
+  - str_tail
+
+- title: "Data sets"
+  contents:
+  - nonneg_stop_words
