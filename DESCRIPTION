@@ -14,6 +14,7 @@ Imports:
     tibble
 Suggests: 
     dplyr,
+    purrr,
     stringi,
     tidytext
 Encoding: UTF-8
