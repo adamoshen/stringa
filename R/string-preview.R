@@ -11,8 +11,11 @@
 #' @return A character vector the same length as `string`.
 #' @examples
 #' # Basic usage
-#' str_head(paste0(rep(letters, 2), collapse=""))
-#' str_tail(paste0(rep(letters, 2), collapse=""))
+#' letters2 <- paste0(rep(letters, 2)
+#' letters2
+#'
+#' str_head(letters2, collapse=""))
+#' str_tail(letters2, collapse=""))
 #'
 #' # Slightly more realistic usage
 #' library(tibble)
@@ -24,6 +27,8 @@
 #'   text = rep(4, 4)
 #' ) %>%
 #' mutate(text = stri_rand_lipsum(text, start_lipsum=FALSE))
+#'
+#' my_docs
 #'
 #' my_docs %>%
 #'   pull(text, name=doc_id) %>%
