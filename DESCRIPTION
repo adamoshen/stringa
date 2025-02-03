@@ -1,6 +1,6 @@
 Package: stringa
 Title: Adam's String Tools
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person("Adam", "Shen", , "adamshen1@gmail.com", role = c("aut", "cre"))
 Description: Tools that Adam often uses for his text-related projects.
