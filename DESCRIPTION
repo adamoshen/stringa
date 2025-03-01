@@ -6,6 +6,7 @@ Authors@R:
 Description: Tools that Adam often uses for his text-related projects.
 License: GPL (>= 3)
 URL: https://adamoshen.github.io/stringa, https://github.com/adamoshen/stringa
+BugReports: https://github.com/adamoshen/stringa/issues
 Depends: 
     R (>= 3.5)
 Imports: 
