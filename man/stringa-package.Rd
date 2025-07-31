@@ -13,6 +13,7 @@ Useful links:
 \itemize{
   \item \url{https://adamoshen.github.io/stringa}
   \item \url{https://github.com/adamoshen/stringa}
+  \item Report bugs at \url{https://github.com/adamoshen/stringa/issues}
 }
 
 }
