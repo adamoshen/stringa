@@ -15,6 +15,10 @@ reference:
   - str_head
   - str_tail
 
+- title: "Utilities"
+  contents:
+  - bind_doc_count
+
 - title: "Data sets"
   contents:
   - nonneg_stop_words

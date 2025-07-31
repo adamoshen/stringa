@@ -1,8 +1,8 @@
-pandoc: 3.2.1
+pandoc: 3.6.4
 pkgdown: 2.1.1
 pkgdown_sha: ~
 articles: {}
-last_built: 2025-02-03T04:53Z
+last_built: 2025-07-31T04:13Z
 urls:
   reference: https://adamoshen.github.io/stringa/reference
   article: https://adamoshen.github.io/stringa/articles
