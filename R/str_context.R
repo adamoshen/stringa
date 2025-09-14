@@ -28,7 +28,7 @@ str_context <- function(string, pattern, width=NULL, ellipsis="...") {
   context <- purrr::set_names(context, string)
   context <- purrr::imap(
     context,
-    \(x, y) purrr::modify_tree(x, leaf = \(x) str_extract_sub(y, x))
+    \(context, string) purrr::modify_tree(context, leaf = \(bounds) str_extract_sub(string, bounds))
   )
 
   context <- unname(context)
